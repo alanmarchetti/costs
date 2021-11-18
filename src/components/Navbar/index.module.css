@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f2e41;
+    padding: 1em;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    margin-right: 1em;
+}
+
+.item a  {
+    text-decoration: none;
+    color: #fff;   
+}
+
+.item a:hover  {
+    color: #f5bb34;   
+}
+
+/* e68a2f = laranja*/
+/* f5bb34 = amarelo*/

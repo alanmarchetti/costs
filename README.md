@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# COST
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do projeto
+Gerenciamento de projetos e gastos com react.js. Aplicativo desenvolvido com react com a finalidade de cadastrar, editar, listar e excluir um projeto. Toda a aplicação foi desenvolvida pensando na componentização, conta com o consumo de uma API 'fake' com json-server para acessar os métodos com o fecth. Esta aplicação conta com navegação, e sistema de rotas passando os 'id' de cada projeto pela url.
 
-## Available Scripts
+Alguns hooks utilizados nesta aplicação, foram:
 
-In the project directory, you can run:
+- useState
+- useEffect
+- useParams
+- useHistory
 
-### `yarn start`
+obs: "Esta é a v1 do projeto, futuramente serão adicionados mais recursos
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias utilizadas
+- Javascript
+- React.js
+- Json-server
+- Fecth API
+<hr>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Como utilizar este projeto
+- Clone este repositório
+- Abra o terminal na pasta do projeto
+- No terminal, digite ` npm i ` para instalar as dependências necessárias
+- Após instalar as dependências, ainda no terminal, digite o comando ` npm start ` para inicializar o projeto
+- Após inicializar o projeto, abra uma nova aba do terminal e execute o comando ` npm run backend ` para inicializar o servidor 
+<hr>
 
-### `yarn test`
+## Comandos necessários
+`npm i` = para instalar as dependências
+`npm start ` = para inicializar a aplicação ( em ` localhost:3000 `)
+`npm run backend ` = para inicializar o servidor 'backend' da aplicação (`json-server`)
+<hr>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Imagens do projeto
 
-### `yarn build`
+#### Pagina Home
+<img src="./src/images/git/home.png" />
+<hr>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Pagina de criação do projeto
+<img src="./src/images/git/cirar.png" />
+<hr>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Pagina de exibição da criação do projeto
+<img src="./src/images/git/listaProjetos.png" />
+<hr>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Pagina de exibição de todos os projetos
+<img src="./src/images/git/allProjetos.png" />
+<hr>
 
-### `yarn eject`
+#### Pagina de edição do projeto
+<img src="./src/images/git/editar.png" />
+<hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Remoção de um projeto
+<img src="./src/images/git/remover.png" />
+<hr>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Pagina caso nao exista nenhum projeto
+<img src="./src/images/git/vazia.png" />
+<hr>
