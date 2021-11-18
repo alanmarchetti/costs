@@ -29,9 +29,9 @@ obs: "Esta é a v1 do projeto, futuramente serão adicionados mais recursos
 <hr>
 
 ## Comandos necessários
-`npm i` = para instalar as dependências
-`npm start ` = para inicializar a aplicação ( em ` localhost:3000 `)
-`npm run backend ` = para inicializar o servidor 'backend' da aplicação (`json-server`)
+- `npm i` = para instalar as dependências
+- `npm start ` = para inicializar a aplicação ( em ` localhost:3000 `)
+- `npm run backend ` = para inicializar o servidor 'backend' da aplicação (`json-server`)
 <hr>
 
 ## Imagens do projeto
